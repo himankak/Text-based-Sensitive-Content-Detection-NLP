@@ -1,0 +1,50 @@
+SENTENCE BEFORE REMOVING DUPLICATE LETTERS : HELLO HOW ARE YOU?
+
+SENTENCE AFTER REMOVING DUPLICATE LETTERS: HELLO HOW ARE YOU? 
+
+THE PROCESSING AND OUTPUT OF THE INPUT SENTENCE IS AS FOLLOWS:
+
+This sentence: HELLO HOW ARE YOU?  is OK! It Does not contain any ABUSE/INSULT/BULLYING/NAME/ADDRESS/SENSITIVE NUMBERS
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.0.3.RELEASE)
+
+2018-08-06 15:41:48.461  INFO 1604 --- [           main] mainaap.runapp                           : Starting runapp on HIMANKA-LAPTOP with PID 1604 (D:\Core_NLP_Example_2\target\classes started by himan in D:\Core_NLP_Example_2)
+2018-08-06 15:41:48.463  INFO 1604 --- [           main] mainaap.runapp                           : No active profile set, falling back to default profiles: default
+2018-08-06 15:41:48.525  INFO 1604 --- [           main] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@608952aa: startup date [Mon Aug 06 15:41:48 EET 2018]; root of context hierarchy
+2018-08-06 15:41:50.417  INFO 1604 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2018-08-06 15:41:50.451  INFO 1604 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-08-06 15:41:50.451  INFO 1604 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.31
+2018-08-06 15:41:50.461  INFO 1604 --- [ost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk-9.0.4\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Users\himan\AppData\Local\Microsoft\WindowsApps;C:\texlive\2018\bin\win32;.]
+2018-08-06 15:41:50.589  INFO 1604 --- [ost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-08-06 15:41:50.590  INFO 1604 --- [ost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2073 ms
+2018-08-06 15:41:50.739  INFO 1604 --- [ost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2018-08-06 15:41:50.744  INFO 1604 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-08-06 15:41:50.744  INFO 1604 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-08-06 15:41:50.744  INFO 1604 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-08-06 15:41:50.744  INFO 1604 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-08-06 15:41:50.783  WARN 1604 --- [           main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'core_NLP_Example_2' defined in file [D:\Core_NLP_Example_2\target\classes\mainaap\Core_NLP_Example_2.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'java.io.File' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2018-08-06 15:41:50.785  INFO 1604 --- [           main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2018-08-06 15:41:50.801  INFO 1604 --- [           main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2018-08-06 15:41:50.911 ERROR 1604 --- [           main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in mainaap.Core_NLP_Example_2 required a bean of type 'java.io.File' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'java.io.File' in your configuration.
+
